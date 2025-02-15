@@ -1,0 +1,123 @@
+/* Import this CSS into your React component file */
+/* You can add more specific styles if needed */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.addResult-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #efeaea;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.addResult-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.addResult-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.addResult-container input[type="text"]{
+  width: calc(100% - 24px); /* Adjust for padding and border */
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+
+
+}
+
+
+.select-container {
+  position: relative;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  select, input[type="text"], button {
+    margin-bottom: 15px;
+  }
+}
+/* styles.css */
+/* ... (previous styles) */
+
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.students-table th, .students-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.students-table th {
+  background-color: #f2f2f2;
+}
+
+/* ... (remaining styles) */
+

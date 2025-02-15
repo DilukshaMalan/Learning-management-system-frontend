@@ -1,0 +1,19 @@
+
+/* App.css */
+ body {
+  font-family: 'Arial', sans-serif;
+ 
+  height: 200vh;
+  background: linear-gradient(#2A00B7,#42006c);
+}
+
+
+
+ h2 {
+  color: #333;
+}
+
+ p {
+  margin-top: 20px;
+}
+

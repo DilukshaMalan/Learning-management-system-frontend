@@ -1,0 +1,37 @@
+.assign-username-container {
+    margin: 20px;
+  }
+  
+  .students-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .student-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .student-item label {
+    font-weight: bold;
+  }
+  
+  .student-item input[type="text"] {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .student-item button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .student-item button:hover {
+    background-color: #0056b3;
+  }
+  
